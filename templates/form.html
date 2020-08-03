@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flask post</title>
+</head>
+<body>
+        <!-- Test Page -->
+    <form action="/pynori" method="post">
+        <p>형태소 분석할 구문 : <input type="text" name="pynori_tag"></p>
+        <input type="submit" value="Pynori">
+    </form>
+
+
+    <form action="/konlpy" method="post">
+        <p>형태소 분석할 구문 : <input type="text" name="konlpy_tag"></p>
+        <input type="submit" value="Konlpy">
+
+    </form>
+
+</body>
+</html>
