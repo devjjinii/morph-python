@@ -8,4 +8,4 @@
 
 * 실행: > python app.py
 
-* 참고 : > https://github.com/gritmind/python-nori
+* 참고 : > https://github.com/gritmind/python-nori , https://konlpy.org/ko/latest/
